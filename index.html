@@ -13,324 +13,381 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      /* loading */
+
+      .loading {
+          background-color: #e0e2f3;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          flex-direction: column;
+      }
+
+      .box-load{
+        display: flex;
+        margin-bottom: 50px;
+      }
+
+      .loading h2{
+        color: #e0e2f3;
+        font-weight: bold;
+        text-shadow: 3px 3px 4px #c7cae0, -3px -3px 4px #eff1f8;
+        font-size: 4em;
+      }
+
+      .load {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          background-color: #e0e2f3;
+          margin-left: 10px;
+          margin-right: 10px;
+          box-shadow: inset#eff1f8 3px 3px 4px 0px, inset#c7cae0 -3px -3px 4px 0px;
+          
+      }
+    </style>
     <title>Hello, world!</title>
   </head>
   <body>
 
-    <div class="effect-wrap">
-      <div class="effect effect-1">
-        <img src="img/shape/lingkaran.png" alt="">
-      </div>
-      <div class="effect effect-2">
-        <img src="img/shape/persegi.png" alt="">
-      </div>
-      <!-- <div class="effect effect-3">
-        <img src="img/shape/segitiga.png" alt="">
-      </div> -->
-      <div class="effect effect-4">
-        <img src="img/shape/gelombang.png" alt="">
-      </div>
-      <!-- <div class="effect effect-5">
-        <img src="img/shape/bulat.png" alt="">
-      </div> -->
-    </div>
-
-      <!-- <nav id="navbar-example2" class="navbar fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="#">PORTOFOLIO</a>
-        <ul class="nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">Contact</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link work-school rounded-pill" href="#work"> <i class="fas fa-briefcase"></i> school work</a>
-          </li>
-        </ul>
-        </div>
-      </nav> -->
-
-
-      <div class="container glass">
-      <!-- content -->
-      <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
-        <!-- <div class="home pt-5" id="home">
-
-            <div class="jumbotron">
-                <div class="container">
-                    <div class="border-slider">
-                      <div class="slide">
-                        <div class="slider-container">
-                <div class="left-slider">
-                    <div class="banner" style="background-color: #35333a;">
-                      <h1>
-                        " Don't forget to be excited today "
-                      </h1>
-                    </div>
-                    <div class="banner" style="background-color: #26222C;">
-                      <h1>
-                        " Don't forget to communicate often "
-                      </h1>
-                    </div>
-                    <div class="banner" style="background-color: #35333a;">
-                      <h1>
-                        " Don't forget to drink coffee so you don't stress "
-                      </h1>
-                    </div>
-                    <div class="banner" style="background-color: #26222C;">
-                        <h1>
-                          " complete tasks on time "
-                        </h1>
-                    </div>
-        </div>
-        <div class="right-slider">
-            <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
-            <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
-            <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
-            <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
+    <div class="loading" id="loading">
+          <div class="box-load">
+            <div class="load" style="animation: pantul 2s linear infinite;"></div>
+            <div class="load" style="animation: pantul 6s linear infinite;"></div>
+            <div class="load" style="animation: pantul 2s linear infinite;"></div>
           </div>
-        
-        <div class="action-button">
-            <button class="down-button">
-                <i class="fas fa-arrow-down"></i>
-            </button>
-            <button class="up-button">
-                <i class="fas fa-arrow-up"></i>
-            </button>
-        </div>
+          <h2>LOADING...</h2>
     </div>
-                    </div>
-                    </div>
-                </div>
-            </div>
 
+    <div class="content" id="content">
+      <div class="effect-wrap">
+        <div class="effect effect-1">
+          <img src="img/shape/lingkaran.png" alt="">
+        </div>
+        <div class="effect effect-2">
+          <img src="img/shape/persegi.png" alt="">
+        </div>
+        <!-- <div class="effect effect-3">
+          <img src="img/shape/segitiga.png" alt="">
         </div> -->
-
-      
-
-        <div class="about" id="about">
-            <div class="jumbotron">
-              <div class="container">
-                <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i> Home</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i> My Team</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i> About Us</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i> Skill</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i> Contact</a>
-                  </li>
-                  <li class="nav-item" role="presentation">
-                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i> School Work</a>
-                  </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="minone" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="banner">
-                      <div class="jumbotron">
+        <div class="effect effect-4">
+          <img src="img/shape/gelombang.png" alt="">
+        </div>
+        <!-- <div class="effect effect-5">
+          <img src="img/shape/bulat.png" alt="">
+        </div> -->
+      </div>
+  
+        <!-- <nav id="navbar-example2" class="navbar fixed-top">
+          <div class="container">
+              <a class="navbar-brand" href="#">PORTOFOLIO</a>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Contact</a>
+            </li>
+  
+            <li class="nav-item">
+              <a class="nav-link work-school rounded-pill" href="#work"> <i class="fas fa-briefcase"></i> school work</a>
+            </li>
+          </ul>
+          </div>
+        </nav> -->
+  
+  
+        <div class="container glass">
+        <!-- content -->
+        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
+          <!-- <div class="home pt-5" id="home">
+  
+              <div class="jumbotron">
+                  <div class="container">
+                      <div class="border-slider">
+                        <div class="slide">
+                          <div class="slider-container">
+                  <div class="left-slider">
+                      <div class="banner" style="background-color: #35333a;">
+                        <h1>
+                          " Don't forget to be excited today "
+                        </h1>
+                      </div>
+                      <div class="banner" style="background-color: #26222C;">
+                        <h1>
+                          " Don't forget to communicate often "
+                        </h1>
+                      </div>
+                      <div class="banner" style="background-color: #35333a;">
+                        <h1>
+                          " Don't forget to drink coffee so you don't stress "
+                        </h1>
+                      </div>
+                      <div class="banner" style="background-color: #26222C;">
+                          <h1>
+                            " complete tasks on time "
+                          </h1>
+                      </div>
+          </div>
+          <div class="right-slider">
+              <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
+              <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
+              <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
+              <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
+            </div>
+          
+          <div class="action-button">
+              <button class="down-button">
+                  <i class="fas fa-arrow-down"></i>
+              </button>
+              <button class="up-button">
+                  <i class="fas fa-arrow-up"></i>
+              </button>
+          </div>
+      </div>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div> -->
+  
+        
+  
+          <div class="about" id="about">
+              <div class="jumbotron">
+                <div class="container">
+                  <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i> Home</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i> My Team</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i> About Us</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i> Skill</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i> Contact</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i> School Work</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="minone" role="tabpanel" aria-labelledby="contact-tab">
+                      <div class="banner">
+                        <div class="jumbotron">
+                          <div class="container">
+                            <div class="row d-flex align-items-center">
+                              <div class="col-sm-6">
+                                <h1>Object Oriented Programming</h1>
+                                <h4>M Iqbal Roni & Arsi Dwi Risky</h4>
+                                <a href="#about"><button class="selengkapnya">more info <i class="fas fa-angle-double-right"></i></button></a>
+                              </div>
+                              <div class="col-sm-6">
+                                <img src="img/banner-min.png" class="img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="zero" role="tabpanel" aria-labelledby="home-tab">
+                        <div class="team mt-4">
+                          <!-- <h1 class="mb-3">My Team PBO</h1> -->
+                        <div class="row d-flex align-items-center">
+                          <div class="col-sm-6">
+                            <div class="card mb-3">
+                              <img src="img/iqbal.png" class="card-img-top">
+                              <div class="card-body">
+                                <div class="text-center">
+                                  <h5 class="card-title">M Iqbal Roni Saputra</h5>
+                                  <p class="card-text">FrontEnd & BackEnd Development</p>
+                                  <div class="sosmed">
+                                    <div class="box">
+                                      <i class="fab fa-whatsapp"></i>
+                                    </div>
+                                    <div class="box">
+                                      <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <div class="box">
+                                      <i class="fab fa-github"></i>
+                                    </div>
+                                  </div>
+                                  <a href="#" class="btn show rounded-pill ">Show Portofolio</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="card mb-3">
+                              <img src="img/arsi.png" class="card-img-top">
+                              <div class="card-body">
+                                <div class="text-center">
+                                  <h5 class="card-title">Arsi Dwi Risky</h5>
+                                  <p class="card-text">FrontEnd & BackEnd Development</p>
+                                  <div class="sosmed">
+                                    <div class="box">
+                                      <i class="fab fa-whatsapp"></i>
+                                    </div>
+                                    <div class="box">
+                                      <i class="fab fa-instagram"></i>
+                                    </div>
+                                    <div class="box">
+                                      <i class="fab fa-github"></i>
+                                    </div>
+                                  </div>
+                                  <a href="#" class="btn show rounded-pill ">Show Portofolio</a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="one" role="tabpanel" aria-labelledby="home-tab">
+                        <h2 class="mb-3">About Us</h2>
+                      <div class="row mt-3">
+                        <div class="col-sm-6">
+                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in ducimus veniam culpa magnam? Delectus quas quod amet, totam natus optio eaque assumenda tempore similique, repellat asperiores ex quasi ipsum reprehenderit laudantium earum minus cum voluptates. Aut minima repudiandae, possimus totam itaque quaerat, blanditiis ducimus voluptates quis quod officia eos maxime ratione asperiores quasi temporibus dolorem atque hic, deserunt provident? Beatae adipisci ut doloremque error mollitia deserunt, dicta a voluptatum explicabo ex qui eius excepturi quos? Laboriosam id aperiam atque error consectetur sed tempora dolorum a dolores, numquam deleniti, totam tenetur! Quas, error eveniet! Placeat quo odit vitae et alias?</p>
+                        </div>
+                        <div class="col-sm-6">
+                          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt iusto quisquam aliquam perspiciatis deserunt natus saepe et commodi possimus hic, aspernatur vitae eaque animi assumenda minima nulla quam reiciendis aperiam fugiat rem sit velit accusamus, quasi suscipit. Ad tempora consequuntur aut dicta maiores aspernatur porro deleniti, sed, enim sapiente eligendi aliquam illo saepe earum sit vel expedita laboriosam soluta! Nulla eum veniam nam ut, ducimus sed iste. Inventore accusantium officia dolore quidem nisi quos adipisci velit omnis, odio dolorem et repudiandae labore? Harum fugit cupiditate nobis temporibus delectus eligendi, sunt quis sequi itaque amet ipsum commodi repudiandae est quaerat minima!</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="profile-tab">
+                      <div class="skill mt-3">
+                        <div class="row">
+                          <div class="col-sm-6">
+                            <div class="box-skill mb-3">
+                              <h1>FrontEnd</h1>
+                              <div class="live">
+                                <div class="prog">
+                                  <i class="fab fa-html5"></i>
+                                </div>
+                                <div class="prog">
+                                  <i class="fab fa-css3"></i>
+                                </div>
+                                <div class="prog">
+                                  <i class="fab fa-js"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-6">
+                            <div class="box-skill mb-3">
+                              <h1>BackEnd</h1>
+                              <div class="live">
+                                <div class="prog">
+                                  <i class="fab fa-laravel"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="contact-tab">
+                      <div class="contact mt-3">
+                        <div class="form">
+                          <h1 class="mb-3">Contact Us</h1>
+                          <input type="text" placeholder="name">
+                        <input type="text" placeholder="email">
+                        <textarea name="" id="" placeholder="Message"></textarea><br>
+                        <button class="send">Send <i class="fab fa-telegram-plane"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="contact-tab">
+                      <div class="showpdf mt-3">
                         <div class="container">
                           <div class="row d-flex align-items-center">
-                            <div class="col-sm-6">
-                              <h1>Object Oriented Programming</h1>
-                              <h4>M Iqbal Roni & Arsi Dwi Risky</h4>
-                              <a href="#about"><button class="selengkapnya">more info <i class="fas fa-angle-double-right"></i></button></a>
+                            <div class="col-sm-9">
+                              <h5>Tugas 1 PBO</h5>
                             </div>
-                            <div class="col-sm-6">
-                              <img src="img/banner.png" class="img-fluid">
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="zero" role="tabpanel" aria-labelledby="home-tab">
-                      <div class="team mt-4">
-                        <!-- <h1 class="mb-3">My Team PBO</h1> -->
-                      <div class="row d-flex align-items-center">
-                        <div class="col-sm-6">
-                          <div class="card mb-3">
-                            <img src="img/maskeran.jpg" class="card-img-top">
-                            <div class="card-body">
-                              <div class="text-center">
-                                <h5 class="card-title">M Iqbal Roni Saputra</h5>
-                                <p class="card-text">FrontEnd & BackEnd Development</p>
-                                <div class="sosmed">
-                                  <div class="box">
-                                    <i class="fab fa-whatsapp"></i>
-                                  </div>
-                                  <div class="box">
-                                    <i class="fab fa-instagram"></i>
-                                  </div>
-                                  <div class="box">
-                                    <i class="fab fa-github"></i>
-                                  </div>
+                            <div class="col-sm-3">
+                              <a href="contoh.pdf" download="PBO.pdf">
+                                <div class="tugas">
+                                  <i class="fas fa-download"></i>
                                 </div>
-                                <a href="#" class="btn show rounded-pill ">Show Portofolio</a>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="card mb-3">
-                            <img src="img/mahasiswa.jpg" class="card-img-top">
-                            <div class="card-body">
-                              <div class="text-center">
-                                <h5 class="card-title">Arsi Dwi Risky</h5>
-                                <p class="card-text">FrontEnd & BackEnd Development</p>
-                                <div class="sosmed">
-                                  <div class="box">
-                                    <i class="fab fa-whatsapp"></i>
-                                  </div>
-                                  <div class="box">
-                                    <i class="fab fa-instagram"></i>
-                                  </div>
-                                  <div class="box">
-                                    <i class="fab fa-github"></i>
-                                  </div>
+                              </a>
+                              <a href="contoh.pdf" download="PBO.pdf">
+                                <div class="tugas">
+                                  <i class="fas fa-eye"></i>
                                 </div>
-                                <a href="#" class="btn show rounded-pill ">Show Portofolio</a>
+                              </a>
+                              <div class="tugas" id="tampil">
+                                <i class="fas fa-chevron-down"></i>
+                              </div>
+                              <div class="tugas" id="tutup">
+                                <i class="fas fa-chevron-up"></i>
                               </div>
                             </div>
                           </div>
                         </div>
                       </div>
+                      <div class="tampil mt-3" id="pdf">
+                        <iframe height="400px" width="100%" src='contoh.pdf'></iframe>
                       </div>
-                  </div>
-                  <div class="tab-pane fade" id="one" role="tabpanel" aria-labelledby="home-tab">
-                      <h2 class="mb-3">About Us</h2>
-                    <div class="row mt-3">
-                      <div class="col-sm-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis in ducimus veniam culpa magnam? Delectus quas quod amet, totam natus optio eaque assumenda tempore similique, repellat asperiores ex quasi ipsum reprehenderit laudantium earum minus cum voluptates. Aut minima repudiandae, possimus totam itaque quaerat, blanditiis ducimus voluptates quis quod officia eos maxime ratione asperiores quasi temporibus dolorem atque hic, deserunt provident? Beatae adipisci ut doloremque error mollitia deserunt, dicta a voluptatum explicabo ex qui eius excepturi quos? Laboriosam id aperiam atque error consectetur sed tempora dolorum a dolores, numquam deleniti, totam tenetur! Quas, error eveniet! Placeat quo odit vitae et alias?</p>
-                      </div>
-                      <div class="col-sm-6">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt iusto quisquam aliquam perspiciatis deserunt natus saepe et commodi possimus hic, aspernatur vitae eaque animi assumenda minima nulla quam reiciendis aperiam fugiat rem sit velit accusamus, quasi suscipit. Ad tempora consequuntur aut dicta maiores aspernatur porro deleniti, sed, enim sapiente eligendi aliquam illo saepe earum sit vel expedita laboriosam soluta! Nulla eum veniam nam ut, ducimus sed iste. Inventore accusantium officia dolore quidem nisi quos adipisci velit omnis, odio dolorem et repudiandae labore? Harum fugit cupiditate nobis temporibus delectus eligendi, sunt quis sequi itaque amet ipsum commodi repudiandae est quaerat minima!</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="two" role="tabpanel" aria-labelledby="profile-tab">
-                    <div class="skill mt-3">
-                      <div class="row">
-                        <div class="col-sm-6">
-                          <div class="box-skill mb-3">
-                            <h1>FrontEnd</h1>
-                            <div class="live">
-                              <div class="prog">
-                                <i class="fab fa-html5"></i>
-                              </div>
-                              <div class="prog">
-                                <i class="fab fa-css3"></i>
-                              </div>
-                              <div class="prog">
-                                <i class="fab fa-js"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-sm-6">
-                          <div class="box-skill mb-3">
-                            <h1>BackEnd</h1>
-                            <div class="live">
-                              <div class="prog">
-                                <i class="fab fa-laravel"></i>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="three" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="contact mt-3">
-                      <div class="form">
-                        <h1 class="mb-3">Contact Us</h1>
-                        <input type="text" placeholder="name">
-                      <input type="text" placeholder="email">
-                      <textarea name="" id="" placeholder="Message"></textarea><br>
-                      <button class="send">Send <i class="fab fa-telegram-plane"></i></button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="contact-tab">
-                    <div class="showpdf mt-3">
-                      <div class="container">
-                        <div class="row d-flex align-items-center">
-                          <div class="col-sm-9">
-                            <h5>Tugas 1 PBO</h5>
-                          </div>
-                          <div class="col-sm-3">
-                            <a href="contoh.pdf" download="PBO.pdf">
-                              <div class="tugas">
-                                <i class="fas fa-download"></i>
-                              </div>
-                            </a>
-                            <a href="contoh.pdf" download="PBO.pdf">
-                              <div class="tugas">
-                                <i class="fas fa-eye"></i>
-                              </div>
-                            </a>
-                            <div class="tugas" id="tampil">
-                              <i class="fas fa-chevron-down"></i>
-                            </div>
-                            <div class="tugas" id="tutup">
-                              <i class="fas fa-chevron-up"></i>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="tampil mt-3" id="pdf">
-                      <iframe height="400px" width="100%" src='contoh.pdf'></iframe>
                     </div>
                   </div>
                 </div>
+                  <!-- <div class="container">
+                    
+                  </div> -->
               </div>
-                <!-- <div class="container">
-                  
-                </div> -->
-            </div>
+          </div>
+          
+          <!-- <h4 id="one">one</h4>
+          <p>...</p>
+          <h4 id="two">two</h4>
+          <p>...</p>
+          <h4 id="three">three</h4>
+          <p>...</p> -->
+          
+          
         </div>
+  
         
-        <!-- <h4 id="one">one</h4>
-        <p>...</p>
-        <h4 id="two">two</h4>
-        <p>...</p>
-        <h4 id="three">three</h4>
-        <p>...</p> -->
-        
-        
-      </div>
-
-      
-    </div>
-
-    <div class="container">
-      <div class="footer pb-5">
-        <div class="text-right mr-5">
-          <p> @CopyRight <i class="fas fa-heart text-danger"></i> MYTEAM 2021</p>
+        </div>
+  
+      <div class="container">
+        <div class="footer pb-5">
+          <div class="text-right mr-5">
+            <p> @CopyRight <i class="fas fa-heart text-danger"></i> MYTEAM 2021</p>
+          </div>
         </div>
       </div>
     </div>
+
+    <script>
+      var content = document.getElementById('content');
+      var loading = document.getElementById('loading');
+      window.addEventListener('load',function(){
+        loading.style.display = "none";
+        content.style.display = "block";
+      });
+    </script>
 
     <script src="js/slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script>
+        
+
         window.addEventListener("scroll", function () {
             var navbar = document.querySelector(".navbar");
             navbar.classList.toggle("sticky", window.scrollY > 0);
