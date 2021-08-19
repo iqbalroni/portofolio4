@@ -17,7 +17,7 @@
       /* loading */
 
       .loading {
-          background-color: #e0e2f3;
+        background-image: linear-gradient(to bottom right, #e0e2f3, #f1cbd4);
           display: flex;
           justify-content: center;
           align-items: center;
@@ -48,9 +48,16 @@
           
       }
     </style>
-    <title>Hello, world!</title>
+    <title>Portofolio 5</title>
   </head>
   <body>
+
+    <div class="setting" id="open">
+      <i class="fas fa-angle-down fa-2x"></i>
+    </div>
+    <div class="setting" id="close">
+      <i class="fas fa-times"></i>
+    </div>
 
     <div class="loading" id="loading">
           <div class="box-load">
@@ -60,6 +67,7 @@
           </div>
           <h2>LOADING...</h2>
     </div>
+
 
     <div class="content" id="content">
       <div class="effect-wrap">
@@ -104,10 +112,31 @@
           </div>
         </nav> -->
   
-  
+        
+        <div class="container menu" id="bar">
+          <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i> My Team</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i> About Us</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i> Skill</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i> Contact</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i> School Work</a>
+            </li>
+          </ul>
+        </div>
+
         <div class="container glass">
-        <!-- content -->
-        <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">
           <!-- <div class="home pt-5" id="home">
   
               <div class="jumbotron">
@@ -159,32 +188,12 @@
               </div>
   
           </div> -->
-  
-        
-  
+
+
           <div class="about" id="about">
               <div class="jumbotron">
                 <div class="container">
-                  <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i> Home</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i> My Team</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i> About Us</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i> Skill</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i> Contact</a>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                      <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i> School Work</a>
-                    </li>
-                  </ul>
+                  
                   <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="minone" role="tabpanel" aria-labelledby="contact-tab">
                       <div class="banner">
@@ -204,7 +213,7 @@
                         </div>
                       </div>
                     </div>
-                    <div class="tab-pane fade" id="zero" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="tab-pane fade " id="zero" role="tabpanel" aria-labelledby="home-tab">
                         <div class="team mt-4">
                           <!-- <h1 class="mb-3">My Team PBO</h1> -->
                         <div class="row d-flex align-items-center">
@@ -350,27 +359,16 @@
                   </div> -->
               </div>
           </div>
-          
-          <!-- <h4 id="one">one</h4>
-          <p>...</p>
-          <h4 id="two">two</h4>
-          <p>...</p>
-          <h4 id="three">three</h4>
-          <p>...</p> -->
-          
-          
-        </div>
-  
         
         </div>
   
-      <div class="container">
-        <div class="footer pb-5">
-          <div class="text-right mr-5">
-            <p> @CopyRight <i class="fas fa-heart text-danger"></i> MYTEAM 2021</p>
+        <div class="container copyright">
+          <div class="footer pb-5">
+            <div class="text-right mr-5">
+              <p> @CopyRight <i class="fas fa-heart text-danger"></i> MYTEAM 2021</p>
+            </div>
           </div>
         </div>
-      </div>
     </div>
 
     <script>
@@ -409,7 +407,23 @@
           tutup.style.display = "none";
         }
 
-        
+        var openmenu = document.getElementById('open');
+        var closemenu = document.getElementById('close');
+        var menu = document.getElementById('bar');
+
+        closemenu.onclick = function(){
+          menu.style.marginTop = "-200px";
+          menu.style.marginBottom = "150px";
+          closemenu.style.display = "none";
+          openmenu.style.display = "flex";
+        }
+
+        openmenu.onclick = function(){
+          menu.style.marginTop = "0";
+          menu.style.marginBottom = "0";
+          closemenu.style.display = "flex";
+          openmenu.style.display = "none";
+        }
     </script>
 </body>
 </html>
