@@ -22,7 +22,7 @@
 body {
     box-sizing: content-box;
     overflow-x: hidden;
-    /* background-color: #e0e2f3; */
+    /* background-color: #E9EDF8; */
     background-color: #D5DFEA;
 }
 
@@ -41,7 +41,7 @@ body {
 ::-webkit-scrollbar {
     margin-left: 10px;
     width: 0;
-    background-color: #e0e2f3;
+    background-color: #E9EDF8;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -61,7 +61,7 @@ body {
     margin: 10px auto;
     width: 8%;
     height: 5px;
-    background-color: #e0e2f3;
+    background-color: #E9EDF8;
     border-radius: 10px;
 }
 
@@ -214,11 +214,11 @@ body {
     }
 
     .about .nav-link {
-        background-color: #e0e2f3;
+        background-color: #E9EDF8;
     }
 
     .team .card {
-        background-color: #e0e2f3;
+        background-color: #E9EDF8;
     }
 
     .jumbotron {
@@ -226,11 +226,11 @@ body {
     }
 
     .about .skill .box-skill {
-        background-color: #e0e2f3;
+        background-color: #E9EDF8;
     }
 
     .about .contact {
-        background-color: #e0e2f3;
+        background-color: #E9EDF8;
         margin-bottom: 100px;
     }
 
