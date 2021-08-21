@@ -2,10 +2,16 @@
 @import url(team.css);
 @import url(about.css);
 
+
+@font-face {
+    font-family: 'iqbal';
+    src: url("../font/Titillium/Titillium-Semibold.otf") format("opentype");
+}
+
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Titillium';
+    font-family: 'iqbal';
     scroll-behavior: smooth;
 }
 
