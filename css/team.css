@@ -1,0 +1,93 @@
+.team .card {
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    transition: all 0.5s ease-in-out;
+    border-radius: 10px;
+}
+
+.team .card:hover {
+    z-index: 55;
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+}
+
+.team .card .card-body {
+    color: #494949;
+    border-radius: 0 0 10px 10px;
+}
+
+.team .card-img-top {
+    width: 30%;
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.team h1 {
+    color: #494949;
+    font-weight: 600;
+    font-size: 2.5em;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+.team h3 {
+    color: #494949;
+    font-weight: 500;
+    font-size: 1.5em;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.team .card-title {
+    font-weight: 700;
+    word-spacing: 2px;
+    letter-spacing: 3px;
+}
+
+.team .show {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: #494949;
+    padding: 10px;
+}
+
+.team .show:hover {
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    color: #494949;
+}
+
+.team .sosmed {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team .box {
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 1.8em;
+}
+
+.team .box:hover {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+}

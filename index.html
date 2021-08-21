@@ -5,19 +5,14 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="fontawesome/css/all.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <style>
       /* loading */
 
       .loading {
-        background-image: linear-gradient(to bottom right, #e0e2f3, #f1cbd4);
+        background-color: #D5DFEA;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -70,126 +65,30 @@
 
 
     <div class="content" id="content">
-      <div class="effect-wrap">
-        <div class="effect effect-1">
-          <img src="img/shape/lingkaran.png" alt="">
-        </div>
-        <div class="effect effect-2">
-          <img src="img/shape/persegi.png" alt="">
-        </div>
-        <!-- <div class="effect effect-3">
-          <img src="img/shape/segitiga.png" alt="">
-        </div> -->
-        <div class="effect effect-4">
-          <img src="img/shape/gelombang.png" alt="">
-        </div>
-        <!-- <div class="effect effect-5">
-          <img src="img/shape/bulat.png" alt="">
-        </div> -->
-      </div>
-  
-        <!-- <nav id="navbar-example2" class="navbar fixed-top">
-          <div class="container">
-              <a class="navbar-brand" href="#">PORTOFOLIO</a>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">Contact</a>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link work-school rounded-pill" href="#work"> <i class="fas fa-briefcase"></i> school work</a>
-            </li>
-          </ul>
-          </div>
-        </nav> -->
-  
-        
         <div class="container menu" id="bar">
           <ul class="nav nav-tabs mb-3" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i> Home</a>
+              <a class="nav-link active" id="home-tab" data-toggle="tab" href="#minone" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-home"></i></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i> My Team</a>
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="#zero" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-user-friends"></i></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i> About Us</a>
+              <a class="nav-link" id="home-tab" data-toggle="tab" href="#one" role="tab" aria-controls="home" aria-selected="true"> <i class="fas fa-address-card"></i></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i> Skill</a>
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#two" role="tab" aria-controls="profile" aria-selected="false"> <i class="fas fa-bookmark"></i></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i> Contact</a>
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#three" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-phone"></i></a>
             </li>
             <li class="nav-item" role="presentation">
-              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i> School Work</a>
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#four" role="tab" aria-controls="contact" aria-selected="false"> <i class="fas fa-briefcase"></i></a>
             </li>
           </ul>
         </div>
 
         <div class="container glass">
-          <!-- <div class="home pt-5" id="home">
-  
-              <div class="jumbotron">
-                  <div class="container">
-                      <div class="border-slider">
-                        <div class="slide">
-                          <div class="slider-container">
-                  <div class="left-slider">
-                      <div class="banner" style="background-color: #35333a;">
-                        <h1>
-                          " Don't forget to be excited today "
-                        </h1>
-                      </div>
-                      <div class="banner" style="background-color: #26222C;">
-                        <h1>
-                          " Don't forget to communicate often "
-                        </h1>
-                      </div>
-                      <div class="banner" style="background-color: #35333a;">
-                        <h1>
-                          " Don't forget to drink coffee so you don't stress "
-                        </h1>
-                      </div>
-                      <div class="banner" style="background-color: #26222C;">
-                          <h1>
-                            " complete tasks on time "
-                          </h1>
-                      </div>
-          </div>
-          <div class="right-slider">
-              <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
-              <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
-              <div class="banner-img" style="background-image: url('img/1.jpg')"></div>
-              <div class="banner-img" style="background-image: url('img/2.jpg')"></div>
-            </div>
-          
-          <div class="action-button">
-              <button class="down-button">
-                  <i class="fas fa-arrow-down"></i>
-              </button>
-              <button class="up-button">
-                  <i class="fas fa-arrow-up"></i>
-              </button>
-          </div>
-      </div>
-                      </div>
-                      </div>
-                  </div>
-              </div>
-  
-          </div> -->
-
-
           <div class="about" id="about">
               <div class="jumbotron">
                 <div class="container">
@@ -201,7 +100,7 @@
                           <div class="container">
                             <div class="row d-flex align-items-center">
                               <div class="col-sm-6">
-                                <h1>Object Oriented Programming</h1>
+                                <h1>OBJECT ORIENTED PROGRAMMING</h1>
                                 <h4>M Iqbal Roni & Arsi Dwi Risky</h4>
                                 <a href="#about"><button class="selengkapnya">more info <i class="fas fa-angle-double-right"></i></button></a>
                               </div>
@@ -321,11 +220,39 @@
                       </div>
                     </div>
                     <div class="tab-pane fade" id="four" role="tabpanel" aria-labelledby="contact-tab">
+
+                      <div class="container penjelasan">
+                        <div class="row">
+                          <div class="col-sm-4 wadah mb-4">
+                            <h3>Encapsulation</h3>
+                            <p>
+                              Maksud enkapsulasi disini adalah menyembunyikan detail implementasi sementara
+                              memusatkan pada antarmuka. Tujuannya adalah membuat sebuah abstraksi yang memaksa
+                              programmer berpikir secara konseptual.
+                            </p>
+                          </div>
+                          <div class="col-sm-4 wadah mb-4">
+                            <h3>Inheritance</h3>
+                            <p>
+                              Pewarisan adalah keuntungan besar dalam pemrograman berbasis object karena suatu sifat atau
+                              method didefinisikan dalam superclass, sifat ini secara otomatis diwariskan dari semua subclasses. 
+                            </p>
+                          </div>
+                          <div class="col-sm-4 wadah mb-4">
+                            <h3>Polymorphism</h3>
+                            <p>
+                              Polimorfisme dimungkinkan karena adanya mekanisme ikatan dinamis (dynamic binding). Ikatan
+                              dinamis adalah ikatan yang terjadi pada saat program dijalankan (run-time). Ikatan yang terjadi pada saat
+                              kompile disebut ikatan statis.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
                       <div class="showpdf mt-3">
                         <div class="container">
                           <div class="row d-flex align-items-center">
                             <div class="col-sm-9">
-                              <h5>Tugas 1 PBO</h5>
+                              <h5>Materi Selengkapnya</h5>
                             </div>
                             <div class="col-sm-3">
                               <a href="contoh.pdf" download="PBO.pdf">
@@ -380,9 +307,8 @@
       });
     </script>
 
-    <script src="js/slider.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <script>
         
 

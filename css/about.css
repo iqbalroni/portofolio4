@@ -1,0 +1,140 @@
+.about .jumbotron {
+    padding-top: 70px;
+    background-color: transparent;
+    color: #494949;
+}
+
+.about h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+    word-spacing: 3px;
+    letter-spacing: 5px;
+}
+
+.about .skill .box-skill {
+    border-radius: 10px;
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about .skill .box-skill .live {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about .skill .box-skill .prog {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: all 0.5 ease-in-out;
+}
+
+.about .skill .box-skill .prog:hover {
+    transform: scale(1.1);
+}
+
+.about .contact {
+    border-radius: 10px;
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.about .contact input {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    color: #494949;
+}
+
+.about .contact textarea {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 80%;
+    border-radius: 10px;
+    height: 100px;
+    color: #494949;
+}
+
+.send {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    color: #494949;
+}
+
+.showpdf {
+    box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border: none;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: #494949;
+}
+
+.showpdf .tugas {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 15px;
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    transition: all 0.5s ease-in-out;
+}
+
+.showpdf .col-sm-3 {
+    display: flex;
+}
+
+.wadah {
+    box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
+    background-color: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 20px;
+}
