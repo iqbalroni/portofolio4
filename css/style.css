@@ -202,6 +202,11 @@ body {
         margin-bottom: 10px;
     }
 
+    .setting {
+        top: 90%;
+        right: 30px;
+    }
+
     .effect-2 {
         top: 10%;
         left: 4%;
