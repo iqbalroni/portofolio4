@@ -85,7 +85,7 @@ body {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
     border-radius: 15px;
-    backdrop-filter: blur(5px);
+
 }
 
 .showpdf a {
@@ -97,7 +97,7 @@ body {
     display: none;
     box-shadow: inset#eff1f8 3px 3px 4px 0px, inset#c7cae0 -3px -3px 4px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 120px;
@@ -126,7 +126,7 @@ body {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
     border-radius: 25px;
-    backdrop-filter: blur(5px);
+
     transition: all 0.5s ease-in-out;
 }
 
@@ -151,7 +151,7 @@ body {
     border-radius: 15px;
     box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     color: #b5b8d4;
     transition: all 0.5s ease-in-out;
 }
@@ -161,7 +161,7 @@ body {
     border-radius: 15px;
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     color: #7b7c86;
     transition: all 0.5s ease-in-out;
 }
@@ -169,7 +169,7 @@ body {
 .setting {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     display: flex;
     justify-content: center;
     align-items: center;

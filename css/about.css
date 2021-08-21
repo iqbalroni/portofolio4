@@ -15,7 +15,7 @@
     border-radius: 10px;
     box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     min-height: 300px;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@
 .about .skill .box-skill .prog {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     width: 100px;
     height: 100px;
     display: flex;
@@ -57,7 +57,7 @@
     border-radius: 10px;
     box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -68,7 +68,7 @@
 .about .contact input {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     border: none;
     padding: 10px;
     margin-bottom: 20px;
@@ -80,7 +80,7 @@
 .about .contact textarea {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     border: none;
     padding: 10px;
     margin-bottom: 20px;
@@ -93,7 +93,7 @@
 .send {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     border: none;
     padding: 10px;
     width: 20%;
@@ -104,7 +104,7 @@
 .showpdf {
     box-shadow: #fefeff 3px 3px 4px 0px, #C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     border: none;
     padding: 15px;
     width: 100%;
@@ -123,7 +123,7 @@
     border-radius: 15px;
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     transition: all 0.5s ease-in-out;
 }
 
@@ -134,7 +134,7 @@
 .wadah {
     box-shadow: inset#fefeff 3px 3px 4px 0px, inset#C1CFDC -3px -3px 2px 0px;
     background-color: #E9EDF8;
-    backdrop-filter: blur(5px);
+
     border-radius: 15px;
     padding: 20px;
 }
